@@ -1,11 +1,88 @@
 h1 {
-  color: rgb(255,115,155);
-  font-family: cursive;
-  background-color: rgb(111,255,215);
-  text-align: center;
+  font-family: fantasy;
+  text-align: left;
+  color: white;
+  background-color: rgb(151, 219, 219);
 }
 
 p {
-  text-align: center;
-  color: rgb(244,287,255);
+  color: grey;
+  font-family:serif;
+}
+
+a {
+  color:rgb(86, 140, 140);
+  font-family: serif;
+  text-decoration: underline;
+}
+body{
+}
+h4 {
+  color: white;
+  font-family: fantasy;
+  background-color: rgb(151, 219, 219)
+}
+h5 {
+  color: black;
+  font-family: serif;
+}
+h3 {
+color: black;
+font-family: serif;
+}
+li {
+ color: black;
+}
+h2 {
+  font-family: serif;
+  color:black;
+  margin-top: 100px;
+}
+img {
+  border-style: double;
+  border-color: white;
+  border-radius: 16px;
+  margin: 100px;
+  float:center;
+  height: 500px;
+  width: 40%;
+}
+#column {
+    float: center;
+    width: 50%;
+}
+#row {
+    content: "Kid's Plates";
+    display: table;
+    clear: both;
+}
+#header {
+background-color: white;
+color:black;
+text-align: center;
+font-family: serif
+}
+#Food2Go {
+  font-family: fantasy;
+  color:white;
+  background-color: rgb(151, 219, 219);
+  border: double;
+  border-color: rgb(86, 140, 140);
+}
+#footer {
+  font-family: serif;
+  color:grey;
+  background-color:rgb(151, 219, 219);
+}
+.breakfast {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: dotted;
+  column-rule-color: grey;
+}
+.lunchordinner {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: dotted;
+  column-rule-color: grey;
 }
